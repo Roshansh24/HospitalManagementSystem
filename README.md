@@ -55,4 +55,16 @@ Sample Test Cases :
 
  Book appointment with invalid pid or did → rollback
 
+Screenshots :
+
  
+<img width="1366" height="745" alt="MySQL Workbench 9_21_25 4_28_24 PM" src="https://github.com/user-attachments/assets/8534d55e-3af9-4f1e-878c-bf0526463848" />
+
+<img width="1366" height="725" alt="Advanced java - AdvancedJava_src_Project_HospitalData java - Eclipse IDE 9_21_25 4_29_35 PM" src="https://github.com/user-attachments/assets/dcd07e18-3f51-419b-b865-ca84c80ebf96" />
+
+<img width="1366" height="725" alt="Advanced java - AdvancedJava_src_Project_Main java - Eclipse IDE 9_21_25 4_31_06 PM" src="https://github.com/user-attachments/assets/072b7960-5330-48ba-877f-64b8552dc24d" />
+<img width="1366" height="725" alt="Advanced java - AdvancedJava_src_Project_Main java - Eclipse IDE 9_21_25 4_32_16 PM" src="https://github.com/user-attachments/assets/133704c1-c97f-429b-b23e-f8af7ce7f3aa" />
+
+<img width="1366" height="725" alt="Advanced java - AdvancedJava_src_Project_Main java - Eclipse IDE 9_21_25 4_33_53 PM" src="https://github.com/user-attachments/assets/d9435aed-2151-4f3f-8a38-8ae6179a8086" />
+
+<img width="1366" height="725" alt="Advanced java - AdvancedJava_src_Project_Main java - Eclipse IDE 9_21_25 4_35_06 PM" src="https://github.com/user-attachments/assets/69614bf4-96b3-459b-a2c4-22bca6209180" />

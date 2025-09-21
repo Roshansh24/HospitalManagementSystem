@@ -22,17 +22,11 @@ Features:
 - SQL Joins & Reports – View appointments with patient & doctor details
 
 Project Structure:
--HospitalManagementSystem/
-    └── src/Project/
-        ├── PatientData.java
-        ├── DoctorData.java
-        ├── AppointmentData.java
-        ├── HospitalOperations.java
-        ├── HospitalData.java
-        └── MainApp.java
-    └──hospitaldb.sql
+-HospitalManagementSystem/src/Project/ PatientData.java,DoctorData.java,AppointmentData.java,
+                                      HospitalOperations.java,HospitalData.java,MainApp.java
+-HospitalManagementSystem/hospitaldb.sql
 -README.md
-- LICENSE
+-LICENSE
 
 
 Setup Instructions :

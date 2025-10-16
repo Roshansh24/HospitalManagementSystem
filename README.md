@@ -3,7 +3,7 @@
 A Hospital Management System built using Core Java (JDBC) and MySQL.
 This project demonstrates CRUD operations, SQL joins, transactions (commit/rollback), and exception handling in a real-world scenario.
 
-Tech Stack
+Tech Stack :
 -Java (Core Java, JDBC)
 -MySQL Database
 -SQL (CRUD, Joins, Transactions)
@@ -22,11 +22,34 @@ Features:
 - SQL Joins & Reports – View appointments with patient & doctor details
 
 Project Structure:
--HospitalManagementSystem/src/Project/ PatientData.java,DoctorData.java,AppointmentData.java,
-                                      HospitalOperations.java,HospitalData.java,MainApp.java
--HospitalManagementSystem/hospitaldb.sql
--README.md
--LICENSE
+com.example.hospital
+ ├── controller
+ │    ├── PatientController.java       → Handles patient-related actions (add, delete, display)
+ │    ├── DoctorController.java        → Handles doctor-related actions
+ │    ├── AppointmentController.java   → Handles booking/deleting appointments
+ │
+ ├── model
+ │    ├── PatientData.java             → Entity class for Patient
+ │    ├── DoctorData.java              → Entity class for Doctor
+ │    ├── AppointmentData.java         → Entity class for Appointment
+ │
+ ├── repository
+ │    ├── HospitalOperations.java      → Interface for CRUD operations
+ │    ├── HospitalData.java            → Implements HospitalOperations using JDBC
+ │
+ ├── service
+ │    ├── HospitalService.java         → Business logic (calls repository layer)
+ │
+ ├── MainApp.java                      → Console runner / main program
+ │
+ ├── resources
+ │    ├── hospitaldb.sql               → Database schema + sample data
+ │    ├── application.properties       → (optional, if you use Spring/JPA later)
+ │
+ ├── pom.xml                           → Maven build (if you switch to Maven)
+ ├── .gitignore                        → Ignore IDE/DB configs
+ ├── LICENSE                           → Project license
+ ├── README.md                         → Documentation, setup guide
 
 
 Setup Instructions :

@@ -76,6 +76,9 @@ Screenshots :
 
 <img width="1366" height="725" alt="Advanced java - AdvancedJava_src_Project_Main java - Eclipse IDE 9_21_25 4_33_53 PM" src="https://github.com/user-attachments/assets/d9435aed-2151-4f3f-8a38-8ae6179a8086" />
 
+<img width="1366" height="725" alt="Advanced java - AdvancedJava_src_Project_Main java - Eclipse IDE 9_21_25 4_35_06 PM" src="https://github.com/user-attachments/assets/69614bf4-96b3-459b-a2c4-22bca6209180" />
+
+
 Future Enhancements:
 
 This project currently uses JDBC for basic CRUD operations. In future versions, the following improvements can be made:
@@ -112,4 +115,3 @@ Deployment
 
 Dockerize the application and deploy it on cloud platforms like AWS, Azure, or Heroku.
 
-<img width="1366" height="725" alt="Advanced java - AdvancedJava_src_Project_Main java - Eclipse IDE 9_21_25 4_35_06 PM" src="https://github.com/user-attachments/assets/69614bf4-96b3-459b-a2c4-22bca6209180" />

@@ -22,35 +22,21 @@ Features:
 - SQL Joins & Reports – View appointments with patient & doctor details
 
 Project Structure:
-com.example.hospital
- ├── controller
- │    ├── PatientController.java       → Handles patient-related actions (add, delete, display)
- │    ├── DoctorController.java        → Handles doctor-related actions
- │    ├── AppointmentController.java   → Handles booking/deleting appointments
- │
- ├── model
- │    ├── PatientData.java             → Entity class for Patient
- │    ├── DoctorData.java              → Entity class for Doctor
- │    ├── AppointmentData.java         → Entity class for Appointment
- │
- ├── repository
- │    ├── HospitalOperations.java      → Interface for CRUD operations
- │    ├── HospitalData.java            → Implements HospitalOperations using JDBC
- │
- ├── service
- │    ├── HospitalService.java         → Business logic (calls repository layer)
- │
- ├── MainApp.java                      → Console runner / main program
- │
- ├── resources
- │    ├── hospitaldb.sql               → Database schema + sample data
- │    ├── application.properties       → (optional, if you use Spring/JPA later)
- │
- ├── pom.xml                           → Maven build (if you switch to Maven)
- ├── .gitignore                        → Ignore IDE/DB configs
- ├── LICENSE                           → Project license
- ├── README.md                         → Documentation, setup guide
+HospitalManagementSystem/
+src/Project/
+model/
+ -PatientData.java
+ -DoctorData.java
+ -AppointmentData.java
+dao/
+ -HospitalOperations.java
+ -HospitalData.java
+ -Main.java
 
+hospitaldb.sql
+.gitignore
+LICENSE
+README.md
 
 Setup Instructions :
 
@@ -89,5 +75,41 @@ Screenshots :
 <img width="1366" height="725" alt="Advanced java - AdvancedJava_src_Project_Main java - Eclipse IDE 9_21_25 4_32_16 PM" src="https://github.com/user-attachments/assets/133704c1-c97f-429b-b23e-f8af7ce7f3aa" />
 
 <img width="1366" height="725" alt="Advanced java - AdvancedJava_src_Project_Main java - Eclipse IDE 9_21_25 4_33_53 PM" src="https://github.com/user-attachments/assets/d9435aed-2151-4f3f-8a38-8ae6179a8086" />
+
+Future Enhancements:
+
+This project currently uses JDBC for basic CRUD operations. In future versions, the following improvements can be made:
+
+Service Layer Integration
+
+Introduce a service layer to separate business logic from DAO.
+
+Spring Boot Migration
+
+Move from raw JDBC to Spring Boot with JPA/Hibernate for easier ORM and cleaner code.
+
+REST API Endpoints
+
+Expose patient, doctor, and appointment operations as RESTful APIs.
+
+Frontend Integration
+
+Build a web UI (using Angular/React) or a simple JSP/Servlet frontend to make the system more user-friendly.
+
+Authentication & Authorization
+
+Add role-based login (e.g., Admin, Doctor, Patient) for secure access.
+
+Advanced Features
+
+Appointment reminders via email/SMS.
+
+Reports (e.g., patient history, doctor schedules).
+
+Search & filter functionality for patients/doctors.
+
+Deployment
+
+Dockerize the application and deploy it on cloud platforms like AWS, Azure, or Heroku.
 
 <img width="1366" height="725" alt="Advanced java - AdvancedJava_src_Project_Main java - Eclipse IDE 9_21_25 4_35_06 PM" src="https://github.com/user-attachments/assets/69614bf4-96b3-459b-a2c4-22bca6209180" />
